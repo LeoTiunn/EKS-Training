@@ -8,4 +8,5 @@ time eksctl create cluster \
 --nodes 2 \
 --nodes-min 1 \
 --nodes-max 4 \
+--zones=us-west-2a,us-west-2b,us-west-2c \
 --managed 
